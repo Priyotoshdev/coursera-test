@@ -3,7 +3,9 @@
 
     angular.module('myFirstapp',[])
     
-    .controller('myFirstcontroller',function(){
+    .controller('myFirstcontroller',function($scope){
+        $scope . name="priyo";
+        
 
     });
 
